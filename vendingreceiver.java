@@ -10,8 +10,7 @@ import java.util.Scanner;
  */
 public class vendingreceiver {
 
-    
-    /** 
+    /**
      * @param args
      */
     public static void main(String[] args) {
@@ -53,6 +52,18 @@ public class vendingreceiver {
                 break;
             case ("Q"): // quarter
                 balance = 0.25;
+                break;
+            case ("h"): // half dollar
+                balance = 0.50;
+                break;
+            case ("H"): // half dollar
+                balance = 0.50;
+                break;
+            case ("g"): // golden dollar
+                balance = 1.00;
+                break;
+            case ("G"): // golder dollar
+                balance = 1.00;
                 break;
             default:
                 System.out.println("Invalid Coin Entered");

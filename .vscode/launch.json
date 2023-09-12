@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "vendingreciever",
+            "request": "launch",
+            "mainClass": "vendingreciever",
+            "projectName": "709-week2_4a66fbd9"
+        },
+        {
+            "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
             "mainClass": ""
